@@ -1,0 +1,4 @@
+
+Exemplo de configuração pro NHibernate usando FluentNHibernate.
+Primeiro exemplo é um mapeamento simples, com alguns testes. 
+O BD é o MySQL, pretendo adicionar exemplos de outros BDs.
