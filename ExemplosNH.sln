@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploMySql.Testes", "ExemploMySql.Testes\ExemploMySql.Testes.csproj", "{E2C9FC38-0515-4444-A54A-9353A08E54AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{767FDF36-B2D9-487E-B9E1-8033755BE883}"
+	ProjectSection(SolutionItems) = preProject
+		Libs\mysql.data.dll = Libs\mysql.data.dll
+		Libs\nunit.framework.dll = Libs\nunit.framework.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FluentNHibernate", "FluentNHibernate", "{8D2265D6-F7A5-45AD-95CC-8987A656EAC9}"
+	ProjectSection(SolutionItems) = preProject
+		Libs\FluentNHibernate\Antlr3.Runtime.dll = Libs\FluentNHibernate\Antlr3.Runtime.dll
+		Libs\FluentNHibernate\Castle.Core.dll = Libs\FluentNHibernate\Castle.Core.dll
+		Libs\FluentNHibernate\Castle.Core.xml = Libs\FluentNHibernate\Castle.Core.xml
+		Libs\FluentNHibernate\Castle.DynamicProxy2.dll = Libs\FluentNHibernate\Castle.DynamicProxy2.dll
+		Libs\FluentNHibernate\Castle.DynamicProxy2.xml = Libs\FluentNHibernate\Castle.DynamicProxy2.xml
+		Libs\FluentNHibernate\FluentNHibernate.dll = Libs\FluentNHibernate\FluentNHibernate.dll
+		Libs\FluentNHibernate\FluentNHibernate.pdb = Libs\FluentNHibernate\FluentNHibernate.pdb
+		Libs\FluentNHibernate\FluentNHibernate.XML = Libs\FluentNHibernate\FluentNHibernate.XML
+		Libs\FluentNHibernate\Iesi.Collections.dll = Libs\FluentNHibernate\Iesi.Collections.dll
+		Libs\FluentNHibernate\Iesi.Collections.xml = Libs\FluentNHibernate\Iesi.Collections.xml
+		Libs\FluentNHibernate\log4net.dll = Libs\FluentNHibernate\log4net.dll
+		Libs\FluentNHibernate\log4net.xml = Libs\FluentNHibernate\log4net.xml
+		Libs\FluentNHibernate\NHibernate.ByteCode.Castle.dll = Libs\FluentNHibernate\NHibernate.ByteCode.Castle.dll
+		Libs\FluentNHibernate\NHibernate.ByteCode.Castle.xml = Libs\FluentNHibernate\NHibernate.ByteCode.Castle.xml
+		Libs\FluentNHibernate\NHibernate.dll = Libs\FluentNHibernate\NHibernate.dll
+		Libs\FluentNHibernate\NHibernate.xml = Libs\FluentNHibernate\NHibernate.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploMySql", "ExemploMySql\ExemploMySql.csproj", "{8F0AF482-1F4C-47D2-AC0B-109B67C094E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2C9FC38-0515-4444-A54A-9353A08E54AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2C9FC38-0515-4444-A54A-9353A08E54AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2C9FC38-0515-4444-A54A-9353A08E54AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2C9FC38-0515-4444-A54A-9353A08E54AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F0AF482-1F4C-47D2-AC0B-109B67C094E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0AF482-1F4C-47D2-AC0B-109B67C094E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0AF482-1F4C-47D2-AC0B-109B67C094E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0AF482-1F4C-47D2-AC0B-109B67C094E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8D2265D6-F7A5-45AD-95CC-8987A656EAC9} = {767FDF36-B2D9-487E-B9E1-8033755BE883}
+	EndGlobalSection
+EndGlobal
