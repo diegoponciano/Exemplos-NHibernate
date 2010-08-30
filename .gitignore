@@ -1,4 +1,5 @@
 *.gpState
+*.suo
 # compiled source #
 ###################
 *.com
