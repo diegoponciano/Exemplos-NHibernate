@@ -1,4 +1,6 @@
 
+Funciona com HTTPS :)
+
 Exemplo de configuracao pro NHibernate usando FluentNHibernate.
 Primeiro exemplo eh um mapeamento simples, com alguns testes. 
 O BD eh o MySQL, pretendo adicionar exemplos de outros BDs.
